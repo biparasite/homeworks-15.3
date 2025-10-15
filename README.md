@@ -41,7 +41,7 @@ resource "yandex_kms_symmetric_key" "s3_key" {
 
 2. Создать букет и зашифровать содержимое бакета
 
-<details> <summary>NLB</summary>
+<details> <summary>S3_KMS</summary>
 
 ```bash
 resource "yandex_storage_bucket" "iam-bucket" {
